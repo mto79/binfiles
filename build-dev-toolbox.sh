@@ -25,7 +25,7 @@ sudo dnf install -y make npm fontconfig git chromium-headless \
     ansible rsync rxvt-unicode pre-commit go \
     fcct nmap jq pass hugo
 
-yes | sudo curl -fsSL https://starship.rs/install.sh | bash
+#yes | sudo curl -fsSL https://starship.rs/install.sh | bash
 
 sudo dnf -y install gvim vim htop pngquant optipng cargo fish hub \
 	waifu2x-converter-cpp the_silver_searcher iperf3
