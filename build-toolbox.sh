@@ -18,7 +18,7 @@ sudo hostname -F /etc/hostname
 
 sudo dnf install -y git wget \
     ansible rsync pre-commit go \
-    fish neovim starship bash-completion fcct nmap jq pass hugo npm kpcli
+    fish neovim starship bash-completion fcct nmap jq pass hugo npm kpcli pinentry-gnome3
 
 CM_VER="2.1.5"
 sudo dnf install -y https://github.com/twpayne/chezmoi/releases/download/v${CM_VER}/chezmoi-${CM_VER}-x86_64.rpm
